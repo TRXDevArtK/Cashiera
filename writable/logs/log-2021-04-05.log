@@ -1,0 +1,193 @@
+CRITICAL - 2021-04-05 14:56:34 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Server\xampp\htdocs\cashiera\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Server\xampp\htdocs\cashiera\public\index.php(35): require('C:\\Server\\xampp...')
+#4 {main}
+CRITICAL - 2021-04-05 14:56:42 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Server\xampp\htdocs\cashiera\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Server\xampp\htdocs\cashiera\public\index.php(35): require('C:\\Server\\xampp...')
+#4 {main}
+CRITICAL - 2021-04-05 15:10:08 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Server\xampp\htdocs\cashiera\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Server\xampp\htdocs\cashiera\spark(53): require('C:\\Server\\xampp...')
+#4 {main}
+CRITICAL - 2021-04-05 15:13:37 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Server\xampp\htdocs\cashiera\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Server\xampp\htdocs\cashiera\spark(53): require('C:\\Server\\xampp...')
+#4 {main}
+CRITICAL - 2021-04-05 09:15:38 --> syntax error, unexpected token "if"
+#0 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#4 {main}
+CRITICAL - 2021-04-05 09:20:20 --> Class "App\Custom\Controllers\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:22:58 --> syntax error, unexpected token "class", expecting "{"
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#8 {main}
+CRITICAL - 2021-04-05 09:25:37 --> syntax error, unexpected token "class", expecting "{"
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#8 {main}
+CRITICAL - 2021-04-05 09:26:17 --> Class "App\Controllers\Custom\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:26:35 --> Class "App\Controllers\Custom\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:26:39 --> Class "App\Controllers\Custom\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:27:36 --> Class "App\Controllers\Custom\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:27:52 --> Class "App\Controllers\Custom\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:27:55 --> Class "App\Controllers\Custom\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:29:50 --> Class "App\Controllers\Custom\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:30:10 --> Class "App\Controllers\Custom\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:30:49 --> Class "App\Controllers\Custom\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:32:38 --> Class "App\Controllers\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:35:49 --> Class "App\Controllers\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}
+CRITICAL - 2021-04-05 09:37:57 --> Class "App\Controllers\BaseController" not found
+#0 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#2 C:\Server\xampp\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Server\xampp\htdocs\cashiera\system\Commands\Server\rewrite.php(45): require_once('C:\\Server\\xampp...')
+#9 {main}

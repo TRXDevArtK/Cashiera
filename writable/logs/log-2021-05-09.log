@@ -1,0 +1,577 @@
+INFO - 2021-05-09 00:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 00:02:20 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-05-09 00:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 00:21:14 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssddd', '2021-1-28', '2021-10-28', '1', '1', '20')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(70): CodeIgniter\Database\BasePreparedQuery->execute('2021-1-28', '2021-10-28', '1', '1', '20')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(107): App\Models\Etc\TestingModel->testdb1(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 00:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 00:21:51 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssddd', '2021-1-28', '2021-10-28', '1', '1', '20')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(70): CodeIgniter\Database\BasePreparedQuery->execute('2021-1-28', '2021-10-28', '1', '1', '20')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(107): App\Models\Etc\TestingModel->testdb1(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 00:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 00:23:20 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssddd', '2021-1-28', '2021-10-28', '1', '1', '20')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(70): CodeIgniter\Database\BasePreparedQuery->execute('2021-1-28', '2021-10-28', '1', '1', '20')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(107): App\Models\Etc\TestingModel->testdb1(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 00:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 00:28:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND pl.store_id = ? AND p.category = ? AND p.type = ? GROUP BY p.id ASC LIMIT...' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT p.name a...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT p.name a...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT p.name a...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(64): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(107): App\Models\Etc\TestingModel->testdb1(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 00:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 00:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:09:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Server\\xampp...', 90, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(59): db_query_builder('SELECT', Array, 'FROM selling_hi...', Array, 'GROUP BY p.id A...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(107): App\Models\Etc\TestingModel->testdb1(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-05-09 01:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:15:08 --> Wrong parameter count for mysqli_stmt::bind_param()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Wrong parameter...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(70): CodeIgniter\Database\BasePreparedQuery->execute()
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(107): App\Models\Etc\TestingModel->testdb1(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:15:25 --> Wrong parameter count for mysqli_stmt::bind_param()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Wrong parameter...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(70): CodeIgniter\Database\BasePreparedQuery->execute()
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(107): App\Models\Etc\TestingModel->testdb1(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:15:39 --> Wrong parameter count for mysqli_stmt::bind_param()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Wrong parameter...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(70): CodeIgniter\Database\BasePreparedQuery->execute()
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(107): App\Models\Etc\TestingModel->testdb1(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:17:23 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('sdd', '2021-01-21', '0', '20')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(70): CodeIgniter\Database\BasePreparedQuery->execute('2021-01-21', '0', '20')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(107): App\Models\Etc\TestingModel->testdb1(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:21:03 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssdd', '2021-01-21', '2021-08-21', '0', '20')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(70): CodeIgniter\Database\BasePreparedQuery->execute('2021-01-21', '2021-08-21', '0', '20')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(107): App\Models\Etc\TestingModel->testdb1(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:22:10 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-05-09 01:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:29:13 --> Argument 1 passed to CodeIgniter\Database\Query::__construct() must implement interface CodeIgniter\Database\ConnectionInterface, array given, called in C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\FiltersModel.php on line 29
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\FiltersModel.php(29): CodeIgniter\Database\Query->__construct(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Admin\FiltersModel->App\Models\Admin\{closure}(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\FiltersModel.php(30): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanPenjualan.php(46): App\Models\Admin\FiltersModel->get_list_store(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanPenjualan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanPenjualan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-05-09 01:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:29:13 --> Argument 1 passed to CodeIgniter\Database\Query::__construct() must implement interface CodeIgniter\Database\ConnectionInterface, array given, called in C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\FiltersModel.php on line 93
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\FiltersModel.php(93): CodeIgniter\Database\Query->__construct(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Admin\FiltersModel->App\Models\Admin\{closure}(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\FiltersModel.php(94): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanPenjualan.php(58): App\Models\Admin\FiltersModel->get_list_type(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanPenjualan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanPenjualan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-05-09 01:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:29:13 --> Argument 1 passed to CodeIgniter\Database\Query::__construct() must implement interface CodeIgniter\Database\ConnectionInterface, array given, called in C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\FiltersModel.php on line 61
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\FiltersModel.php(61): CodeIgniter\Database\Query->__construct(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Admin\FiltersModel->App\Models\Admin\{closure}(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\FiltersModel.php(62): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanPenjualan.php(52): App\Models\Admin\FiltersModel->get_list_category(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanPenjualan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanPenjualan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-05-09 01:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:29:14 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssssssss', '2021-5-9', '2021-5-9', 'store', 'category', 'product', '%%', '%%', '%%')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ResultsModel.php(58): CodeIgniter\Database\BasePreparedQuery->execute('2021-5-9', '2021-5-9', 'store', 'category', 'product', '%%', '%%', '%%')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanPenjualan.php(34): App\Models\Admin\ResultsModel->get_selling_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanPenjualan->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanPenjualan))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:29:19 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssssssss', '2021-4-1', '2021-5-9', 'store', 'category', 'product', '%%', '%%', '%%')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ResultsModel.php(58): CodeIgniter\Database\BasePreparedQuery->execute('2021-4-1', '2021-5-9', 'store', 'category', 'product', '%%', '%%', '%%')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanPenjualan.php(34): App\Models\Admin\ResultsModel->get_selling_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanPenjualan->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanPenjualan))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:30:00 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssdddsss', '2021-1-28', '2021-5-28', '1', '1', '1', '%%', '%%', '%%')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(182): CodeIgniter\Database\BasePreparedQuery->execute('2021-1-28', '2021-5-28', '1', '1', '1', '%%', '%%', '%%')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(92): App\Models\Etc\TestingModel->ResultsModel_get_selling_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:30:51 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssdddsss', '2021-1-28', '2021-5-28', '1', '1', '1', '%%', '%%', '%%')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(182): CodeIgniter\Database\BasePreparedQuery->execute('2021-1-28', '2021-5-28', '1', '1', '1', '%%', '%%', '%%')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(92): App\Models\Etc\TestingModel->ResultsModel_get_selling_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:31:30 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssdddsss', '2021-1-28', '2021-5-28', '1', '1', '1', '%%', '%%', '%%')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(182): CodeIgniter\Database\BasePreparedQuery->execute('2021-1-28', '2021-5-28', '1', '1', '1', '%%', '%%', '%%')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(92): App\Models\Etc\TestingModel->ResultsModel_get_selling_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:33:33 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssdddd', '2021-1-28', '2021-5-28', '1', '1', '1', '3')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(231): CodeIgniter\Database\BasePreparedQuery->execute('2021-1-28', '2021-5-28', '1', '1', '1', '3')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(92): App\Models\Etc\TestingModel->ResultsModel_get_selling_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:34:39 --> mysqli_stmt::close(): Couldn't fetch mysqli_stmt
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::cl...', 'C:\\Server\\xampp...', 189, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(189): mysqli_stmt->close()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(243): CodeIgniter\Database\BasePreparedQuery->close()
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(92): App\Models\Etc\TestingModel->ResultsModel_get_selling_results(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-05-09 01:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:34:50 --> mysqli_stmt::close(): Couldn't fetch mysqli_stmt
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::cl...', 'C:\\Server\\xampp...', 189, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(189): mysqli_stmt->close()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(243): CodeIgniter\Database\BasePreparedQuery->close()
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(92): App\Models\Etc\TestingModel->ResultsModel_get_selling_results(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-05-09 01:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:37:45 --> mysqli_stmt::close(): Couldn't fetch mysqli_stmt
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::cl...', 'C:\\Server\\xampp...', 189, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(189): mysqli_stmt->close()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(242): CodeIgniter\Database\BasePreparedQuery->close()
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(92): App\Models\Etc\TestingModel->ResultsModel_get_selling_results(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-05-09 01:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:39:26 --> syntax error, unexpected 'total' (T_STRING)
+#0 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Etc\\...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Etc\\...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(26): spl_autoload_call('App\\Models\\Etc\\...')
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-05-09 01:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:39:34 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssdddd', '2021-1-28', '2021-5-28', '1', '1', '1', '3')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(230): CodeIgniter\Database\BasePreparedQuery->execute('2021-1-28', '2021-5-28', '1', '1', '1', '3')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(92): App\Models\Etc\TestingModel->ResultsModel_get_selling_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:45:36 --> syntax error, unexpected '='
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(137): helper(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(93): App\Models\Etc\TestingModel->ResultsModel_get_selling_results(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-05-09 01:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 01:45:43 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssdddsss', '2021-1-28', '2021-5-28', '1', '1', '1', '%%', '%%', '%%')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(182): CodeIgniter\Database\BasePreparedQuery->execute('2021-1-28', '2021-5-28', '1', '1', '1', '%%', '%%', '%%')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(93): App\Models\Etc\TestingModel->ResultsModel_get_selling_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 01:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 01:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 02:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 02:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 02:02:41 --> Unknown column 'sh.datetime' in 'where clause'
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT COUNT(*)...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT COUNT(*)...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT COUNT(*)...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(292): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(123): App\Models\Etc\TestingModel->ResultsModel_get_buying_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 02:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 02:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 02:13:30 --> Unknown column 'sh.teller' in 'field list'
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT p.name a...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT p.name a...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT p.name a...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(338): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(123): App\Models\Etc\TestingModel->ResultsModel_get_buying_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 02:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 02:13:40 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('ssdddsssid', '2021-1-28', '2021-5-28', '1', '1', '1', '%%', '%%', '%%', 0, '3')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(345): CodeIgniter\Database\BasePreparedQuery->execute('2021-1-28', '2021-5-28', '1', '1', '1', '%%', '%%', '%%', 0, '3')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(123): App\Models\Etc\TestingModel->ResultsModel_get_buying_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 02:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 02:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 02:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 02:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-05-09 11:55:44 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-05-09 11:55:44 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(64): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(108): App\Models\Etc\TestingModel->testdb1(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-09 11:55:45 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Server\\xampp...', 100, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(281): include('C:\\Server\\xampp...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-05-09 11:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 11:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 12:45:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN product p ON sh.product_id = p.id LEFT JOIN product_location pl ON ...' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT COUNT(*)...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT COUNT(*)...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT COUNT(*)...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(420): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(70): App\Models\Etc\TestingModel->ResultsModel_overall_results(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-09 12:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 12:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 13:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 13:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-09 13:00:51 --> mysqli_stmt::close(): Couldn't fetch mysqli_stmt
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::cl...', 'C:\\Server\\xampp...', 189, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(189): mysqli_stmt->close()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(493): CodeIgniter\Database\BasePreparedQuery->close()
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(70): App\Models\Etc\TestingModel->ResultsModel_overall_results(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-05-09 13:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-09 13:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

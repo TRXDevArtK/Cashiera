@@ -1,0 +1,11 @@
+.table-col-fixed{
+    background-color: #cccccc;
+    position: sticky;
+    left: 0px;
+    right: 0px;
+}
+
+.table-horizon-scroll{
+    overflow-x: auto;
+}
+

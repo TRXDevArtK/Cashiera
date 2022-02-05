@@ -1,0 +1,114 @@
+.cnv-btn-1 {
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.2);
+    color: #fff;
+    padding: 1%;
+}
+
+.cnv-header-1{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #cc3300;
+    padding: 0px 1%;
+}
+
+.cnv-footer-1{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #cc3300;
+    padding: 0px 1%;
+}
+
+.cnv-body-1 {
+    background-color: #0099cc;
+    border: solid;
+    border-color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+.cnv-body-2{
+    background-color: #0099cc;
+    border: solid;
+    border-color: black;
+}
+
+.cnv-init-1{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0px 25px;
+}
+
+.cnv-box-1{
+    position: relative;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    background-color: #1b9831;
+    box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.2);
+    color: #fff;
+    font-weight: bold;
+}
+
+.cnv-box-head-1 {
+    background-color: red;
+    border-radius: 20px;
+}
+
+.cnv-box-body-1 {
+    background-color: green;
+    border-radius: 20px;
+}
+
+.cnv-box-foot-1 {
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.cnv-danger-1{
+    background-color: #ff3333;
+}
+
+.cnv-warning-1{
+    background-color: #ff9966;
+}
+
+.cnv-safe-1{
+    display: inline-block;
+    background-color: #66cc00;
+}
+
+.cnv-sidebar-1{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.cnv-body-3{
+    margin-left: 250px; /* Same as the width of the sidenav */
+    padding-top: 20px;
+    border: 0px;
+}
+
+.cnv-text-1{
+    margin: 5px 0px;
+}
+
+

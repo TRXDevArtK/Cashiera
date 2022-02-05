@@ -1,0 +1,34 @@
+CRITICAL - 2021-04-14 06:34:06 --> Argument 1 passed to CodeIgniter\Database\Query::setQuery() must be of the type string, null given, called in C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php on line 207
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(207): CodeIgniter\Database\Query->setQuery(NULL)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Etc\TestingModel->App\Models\Etc\{closure}(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(208): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-14 06:49:16 --> Class 'App\Models\Homepage\Time' not found
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(44): App\Models\Homepage\AuthModel->register(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-14 06:49:30 --> Class 'App\Models\Homepage\Time' not found
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(44): App\Models\Homepage\AuthModel->register(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-04-14 07:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-14 07:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-14 07:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-14 07:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-14 07:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-14 07:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-14 07:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-14 07:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-14 07:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-14 07:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

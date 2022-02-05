@@ -1,0 +1,19 @@
+INFO - 2021-06-28 02:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-28 02:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-28 02:06:10 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-28 02:06:11 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(39): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(40): App\Models\Homepage\AuthModel->login(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-28 02:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-28 02:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-28 02:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-28 02:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-28 02:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-28 02:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

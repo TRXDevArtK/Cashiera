@@ -1,0 +1,938 @@
+INFO - 2021-05-23 04:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 04:22:24 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 04:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 04:24:57 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 04:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 04:42:41 --> move_uploaded_file() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\Server\\xampp...', 43, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\UpdateModel.php(43): move_uploaded_file(Array, 'http://localhos...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-05-23 04:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 04:44:19 --> move_uploaded_file(http://localhost/cashiera/public/img/product/logo-sample-2.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\Server\\xampp...', 43, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\UpdateModel.php(43): move_uploaded_file('C:\\Server\\xampp...', 'http://localhos...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-05-23 04:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 04:45:57 --> move_uploaded_file(http://localhost/cashiera/public/img/product/logo-sample-1.svg): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\Server\\xampp...', 43, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\UpdateModel.php(43): move_uploaded_file('C:\\Server\\xampp...', 'http://localhos...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-05-23 04:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 04:52:39 --> move_uploaded_file(http://localhost/cashiera/public/img/product/logosw.svg): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\Server\\xampp...', 43, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\UpdateModel.php(43): move_uploaded_file('C:\\Server\\xampp...', 'http://localhos...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-05-23 04:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 04:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:07:54 --> Call to a member function getName() on array
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 05:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:12:27 --> fopen(http://localhost/cashiera/public/img/productuploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\Server\\xampp...', 186, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\Server\xampp73\htdocs\cashiera\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\UpdateModel.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 05:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:13:58 --> fopen(http://localhost/cashiera/public/img/product/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\Server\\xampp...', 186, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\Server\xampp73\htdocs\cashiera\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\UpdateModel.php(33): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 05:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:14:51 --> fopen(http://localhost/cashiera/public/img/product/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\Server\\xampp...', 186, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\Server\xampp73\htdocs\cashiera\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\UpdateModel.php(33): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 05:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:25:13 --> Call to a member function getName() on array
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(43): App\Models\Etc\TestingModel->uploadtest(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 05:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:33:47 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php on line 43 and exactly 1 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(43): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 05:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:44:30 --> syntax error, unexpected '>', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Etc\\...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Etc\\...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(26): spl_autoload_call('App\\Models\\Etc\\...')
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-05-23 05:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:46:28 --> fopen(http://localhost/cashiera/public/img/product/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\Server\\xampp...', 186, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\Server\xampp73\htdocs\cashiera\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(14): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 05:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:46:46 --> fopen(http://localhost/cashiera/public/img/productuploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\Server\\xampp...', 186, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\Server\xampp73\htdocs\cashiera\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(14): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 05:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 05:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:56:11 --> Call to a member function hasMoved() on bool
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 05:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:56:54 --> Call to a member function hasMoved() on bool
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 05:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:57:14 --> Call to a member function hasMoved() on bool
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 05:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:58:15 --> Call to a member function isValid() on null
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 05:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 05:58:27 --> Call to a member function isValid() on null
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 06:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 06:41:10 --> Call to undefined function App\Models\Etc\delete_files()
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 06:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 06:41:53 --> Call to undefined function App\Models\Etc\delete_files()
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 06:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 06:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-05-23 07:17:06 --> mysqli_sql_exception: No database selected in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(27): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-23 07:17:06 --> No database selected
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(27): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 07:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-05-23 07:17:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<svg width=\"2105\" height=\"2500\" viewBox=\"0 0 256 304\" xmlns=\"http://ww...' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-23 07:17:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<svg width=\"2105\" height=\"2500\" viewBox=\"0 0 256 304\" xmlns=\"http://ww...' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 07:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-05-23 07:21:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<svg width=\"2105\" height=\"2500\" viewBox=\"0 0 256 304\" xmlns=\"http://ww...' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-23 07:21:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<svg width=\"2105\" height=\"2500\" viewBox=\"0 0 256 304\" xmlns=\"http://ww...' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 07:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-05-23 07:27:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<svg width=\"2105\" height=\"2500\" viewBox=\"0 0 256 304\" xmlns=\"http://ww...' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-23 07:27:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '<svg width=\"2105\" height=\"2500\" viewBox=\"0 0 256 304\" xmlns=\"http://ww...' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 07:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-05-23 07:29:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?PNG
+
+\0\0\0IHDR\0\0\0?\0\0\0?\0\0\0?{??\0\0\0	pHYs\0\0\0\0\0??\0\...' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-23 07:29:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?PNG
+
+\0\0\0IHDR\0\0\0?\0\0\0?\0\0\0?{??\0\0\0	pHYs\0\0\0\0\0??\0\...' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 07:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-05-23 07:29:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?PNG
+
+\0\0\0IHDR\0\0\0?\0\0\0?\0\0\0?{??\0\0\0	pHYs\0\0\0\0\0??\0\...' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-23 07:29:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?PNG
+
+\0\0\0IHDR\0\0\0?\0\0\0?\0\0\0?{??\0\0\0	pHYs\0\0\0\0\0??\0\...' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 07:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-05-23 07:30:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?PNG
+
+\0\0\0IHDR\0\0\0?\0\0\0?\0\0\0?{??\0\0\0	pHYs\0\0\0\0\0??\0\...' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-23 07:30:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?PNG
+
+\0\0\0IHDR\0\0\0?\0\0\0?\0\0\0?{??\0\0\0	pHYs\0\0\0\0\0??\0\...' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 07:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-05-23 07:31:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?PNG
+
+\0\0\0IHDR\0\0\0?\0\0\0?\0\0\0?{??\0\0\0	pHYs\0\0\0\0\0??\0\...' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-23 07:31:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?PNG
+
+\0\0\0IHDR\0\0\0?\0\0\0?\0\0\0?{??\0\0\0	pHYs\0\0\0\0\0??\0\...' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `id_stor...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `id_stor...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `id_stor...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->query('UPDATE `id_stor...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-05-23 07:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 07:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 08:13:42 --> Call to undefined function App\Models\Etc\uuidv4()
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(44): App\Models\Etc\TestingModel->uploadtest(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 08:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 08:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 09:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 09:07:03 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-05-23 09:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 09:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 09:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 09:09:00 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('sssssd', 'toko_1111', 'jalan toko 111', 'Asia/Jakarta', '2021-05-23 16:0...', '/img/store-defa...', '1')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(302): CodeIgniter\Database\BasePreparedQuery->execute('toko_1111', 'jalan toko 111', 'Asia/Jakarta', '2021-05-23 16:0...', '/img/store-defa...', '1')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\UpdateModel.php(89): db_update_builder('UPDATE', 'id_store', Array, Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#8 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2021-05-23 09:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 09:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 09:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 09:09:50 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('sssssd', 'toko_1111', 'jalan toko 111', 'Asia/Jakarta', '2021-05-23 16:0...', '/img/store-defa...', '1')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(302): CodeIgniter\Database\BasePreparedQuery->execute('toko_1111', 'jalan toko 111', 'Asia/Jakarta', '2021-05-23 16:0...', '/img/store-defa...', '1')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\UpdateModel.php(89): db_update_builder('UPDATE', 'id_store', Array, Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#8 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2021-05-23 09:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 09:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 09:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 09:10:46 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('sssssd', 'toko_1111', 'jalan toko 111', 'Asia/Jakarta', '2021-05-23 16:1...', '/img/store-defa...', '1')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(302): CodeIgniter\Database\BasePreparedQuery->execute('toko_1111', 'jalan toko 111', 'Asia/Jakarta', '2021-05-23 16:1...', '/img/store-defa...', '1')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\UpdateModel.php(89): db_update_builder('UPDATE', 'id_store', Array, Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(51): App\Models\Admin\UpdateModel->update_store(Array, Array)
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#8 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2021-05-23 13:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 13:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 22:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 23:01:44 --> Call to a member function getName() on null
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(44): App\Models\Admin\CreateModel->create_store(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 23:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 23:02:26 --> Call to a member function getName() on null
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Toko.php(44): App\Models\Admin\CreateModel->create_store(Array, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-05-23 23:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 23:36:34 --> You must set the database table to be used with your query.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Karyawan.php(58): CodeIgniter\Model->__call('read_employee', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Karyawan->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Karyawan))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-05-23 23:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 23:37:21 --> You must set the database table to be used with your query.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Karyawan.php(58): CodeIgniter\Model->__call('read_employee', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Karyawan->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Karyawan))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-05-23 23:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 23:40:45 --> You must set the database table to be used with your query.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Karyawan.php(58): CodeIgniter\Model->__call('read_employee', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Karyawan->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Karyawan))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-05-23 23:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-05-23 23:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-05-23 23:41:30 --> You must set the database table to be used with your query.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\Karyawan.php(58): CodeIgniter\Model->__call('read_employee', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Karyawan->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Karyawan))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

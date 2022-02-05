@@ -1,0 +1,30 @@
+CRITICAL - 2021-04-12 01:05:58 --> You must set the database table to be used with your query.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(43): CodeIgniter\Model->__call('AuthModel_regis...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 01:07:27 --> You must set the database table to be used with your query.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(43): CodeIgniter\Model->__call('AuthModel_regis...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 01:20:59 --> Class 'App\Controllers\Etc\DateTime' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-12 01:27:11 --> Class 'App\Controllers\Etc\DateTime' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,94 @@
+INFO - 2021-06-24 01:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 01:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 01:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-24 01:04:27 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-24 01:04:27 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(39): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(40): App\Models\Homepage\AuthModel->login(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-24 01:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-24 01:04:35 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-24 01:04:35 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(39): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(40): App\Models\Homepage\AuthModel->login(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-24 01:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 01:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-24 01:04:47 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-24 01:04:48 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(39): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(40): App\Models\Homepage\AuthModel->login(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-24 03:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-24 03:37:56 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-24 03:37:56 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(39): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(40): App\Models\Homepage\AuthModel->login(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-24 03:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 03:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 04:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-24 04:06:12 --> Invalid numeric literal
+#0 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Etc\\...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Etc\\...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(26): spl_autoload_call('App\\Models\\Etc\\...')
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-24 04:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-24 04:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-24 04:06:50 --> mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_stmt::bi...', 'C:\\Server\\xampp...', 86, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(86): mysqli_stmt->bind_param('sisiisiiiiiiiii...', NULL, 23423, 'asdasdasd28', 1, 1, 'aa', 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 'admin', 1, '2021-06-24 04:0...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(230): CodeIgniter\Database\BasePreparedQuery->execute(NULL, 23423, 'asdasdasd28', 1, 1, 'aa', 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 'admin', 1, '2021-06-24 04:0...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(155): db_create_builder('INSERT INTO', '`product`', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(51): App\Models\Etc\TestingModel->alltest(Array)
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#8 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2021-06-24 04:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

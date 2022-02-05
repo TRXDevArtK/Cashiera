@@ -1,0 +1,3 @@
+php spark serve
+
+PAUSE

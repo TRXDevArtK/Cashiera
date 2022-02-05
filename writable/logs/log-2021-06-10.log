@@ -1,0 +1,105 @@
+INFO - 2021-06-10 04:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-10 04:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-10 12:08:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1'' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Services\AuthModel.php(216): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Services\Access.php(29): App\Models\Services\AuthModel->read_table_data(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Services\Access->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services\Access))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 12:08:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1'' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Services\AuthModel.php(216): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Services\Access.php(29): App\Models\Services\AuthModel->read_table_data(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Services\Access->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services\Access))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-10 12:10:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1'' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Services\AuthModel.php(216): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Services\Access.php(29): App\Models\Services\AuthModel->read_table_data(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Services\Access->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services\Access))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 12:10:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1'' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Services\AuthModel.php(216): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Services\Access.php(29): App\Models\Services\AuthModel->read_table_data(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Services\Access->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services\Access))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-10 12:12:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1'' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Services\AuthModel.php(216): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Services\Access.php(29): App\Models\Services\AuthModel->read_table_data(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Services\Access->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services\Access))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 12:12:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1'' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Services\AuthModel.php(216): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Services\Access.php(29): App\Models\Services\AuthModel->read_table_data(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Services\Access->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services\Access))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-06-10 12:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-10 12:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-10 12:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-10 12:13:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1'' at line 1 in C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(104): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(51): App\Models\Etc\TestingModel->alltest(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-10 12:13:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1'' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(104): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(51): App\Models\Etc\TestingModel->alltest(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-06-10 12:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-10 22:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-10 22:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-10 22:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-10 22:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-10 22:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-10 22:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-10 22:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

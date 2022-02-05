@@ -1,0 +1,560 @@
+CRITICAL - 2021-04-09 07:57:54 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-09 07:58:42 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-09 07:58:47 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Server\\xampp...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-09 07:58:58 --> Invalid file: etc/testingss_ground.php
+#0 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('etc/testingss_g...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testingss_g...', Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(17): view('etc/testingss_g...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 07:59:06 --> Invalid file: etc/testssing_ground.php
+#0 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('etc/testssing_g...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testssing_g...', Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(16): view('etc/testssing_g...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 07:59:10 --> Invalid file: etc/testssing_ground.php
+#0 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('etc/testssing_g...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testssing_g...', Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(16): view('etc/testssing_g...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 08:00:00 --> Class 'App\Controllers\Etc\Query' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Controllers\Etc\Testing->App\Controllers\Etc\{closure}(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(42): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-09 08:03:28 --> Class 'App\Controllers\Etc\Query' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Controllers\Etc\Testing->App\Controllers\Etc\{closure}(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(45): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-09 08:03:54 --> Call to undefined function App\Controllers\Etc\db_switch()
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-09 08:09:05 --> Call to a member function AuthModel_login() on null
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-09 08:09:56 --> Call to a member function AuthModel_login() on null
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-09 08:10:12 --> Too few arguments to function App\Models\Etc\TestingModel::AuthModel_login(), 0 passed in C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php on line 28 and exactly 1 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-09 08:10:31 --> Class 'App\Models\Etc\Query' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Etc\TestingModel->App\Models\Etc\{closure}(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(38): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 08:10:50 --> Class 'App\Models\Etc\Query' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Etc\TestingModel->App\Models\Etc\{closure}(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(38): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(27): App\Models\Etc\TestingModel->AuthModel_login()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 08:10:54 --> Class 'App\Models\Etc\Query' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Etc\TestingModel->App\Models\Etc\{closure}(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(38): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(27): App\Models\Etc\TestingModel->AuthModel_login()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 08:11:10 --> Call to undefined function App\Models\Etc\db_switch()
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(27): App\Models\Etc\TestingModel->AuthModel_login()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-09 08:12:09 --> Call to undefined function App\Models\Etc\db_switch()
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(27): App\Models\Etc\TestingModel->AuthModel_login()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-09 08:47:46 --> Call to a member function prepare() on array
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-09 08:53:47 --> Class name must be a valid object or a string
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-09 08:55:01 --> Call to undefined function App\Models\Etc\database()
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-09 09:00:04 --> Error connecting to the database: Unknown database 'tenant_0'
+CRITICAL - 2021-04-09 09:00:04 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(50): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-09 09:00:41 --> Error connecting to the database: Unknown database 'tenant_0'
+CRITICAL - 2021-04-09 09:00:41 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(50): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-09 09:01:07 --> Error connecting to the database: Unknown database 'tenant_0'
+CRITICAL - 2021-04-09 09:01:07 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(50): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 09:09:49 --> Call to undefined function App\Models\Etc\tenant_db()
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-09 09:10:06 --> Function name must be a string
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-04-09 09:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 09:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 09:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 09:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-04-09 09:34:37 --> Class 'App\Models\Homepage\Query' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Homepage\AuthModel->App\Models\Homepage\{closure}(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(28): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(37): App\Models\Homepage\AuthModel->login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 09:35:30 --> Class 'App\Models\Homepage\Query' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Homepage\AuthModel->App\Models\Homepage\{closure}(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(28): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(38): App\Models\Homepage\AuthModel->login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 09:36:17 --> Class 'App\Models\Homepage\Query' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Homepage\AuthModel->App\Models\Homepage\{closure}(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(28): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(37): App\Models\Homepage\AuthModel->login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 09:36:41 --> Class 'App\Models\Homepage\Query' not found
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(985): App\Models\Homepage\AuthModel->App\Models\Homepage\{closure}(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(28): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(37): App\Models\Homepage\AuthModel->login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 09:37:39 --> Call to a member function AuthModel_login() on null
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-09 09:39:08 --> Call to a member function AuthModel_login() on null
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-09 09:40:02 --> Call to a member function AuthModel_login() on null
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-09 09:42:52 --> Call to a member function AuthModel_login() on null
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-09 09:43:17 --> Call to a member function AuthModel_login() on null
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-09 09:49:27 --> Call to a member function AuthModel_login() on null
+#0 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-04-09 09:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-04-09 09:50:34 --> You must set the database table to be used with your query.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Server\xampp73\htdocs\cashiera\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(38): CodeIgniter\Model->__call('AuthModel_login', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-04-09 09:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 09:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-04-09 09:53:15 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 09:53:15 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(49): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(37): App\Models\Homepage\AuthModel->login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-09 09:53:19 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 09:53:19 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(49): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(37): App\Models\Homepage\AuthModel->login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-04-09 09:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 09:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 09:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-04-09 09:55:32 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 09:55:32 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(49): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(37): App\Models\Homepage\AuthModel->login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-09 09:56:10 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 09:56:10 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(49): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(37): App\Models\Homepage\AuthModel->login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-04-09 09:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-04-09 09:56:48 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 09:56:48 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(53): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(37): App\Models\Homepage\AuthModel->login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-09 09:57:06 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 09:57:06 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(55): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-09 09:58:10 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 09:58:10 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(56): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-09 09:58:20 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 09:58:20 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(56): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 09:59:24 --> Call to a member function getResult() on null
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-09 10:00:17 --> Call to a member function getResult() on null
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-09 10:02:50 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 10:02:50 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(52): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 10:03:50 --> Call to a member function execute() on bool
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-09 10:05:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::hasError()
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-09 10:05:51 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 10:05:51 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(56): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-09 10:06:07 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 10:06:07 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(57): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-09 10:06:10 --> Error connecting to the database: Unknown database 'tenant_'
+CRITICAL - 2021-04-09 10:06:10 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(57): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-09 10:09:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`key` = ?' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT id FROM ...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT id FROM ...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT id FROM ...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(31): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-09 10:10:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`key` = ?' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT id FROM ...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT id FROM ...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT id FROM ...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(31): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-09 10:11:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`key` = ?' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT id FROM ...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT id FROM ...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT id FROM ...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(33): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-09 10:11:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`key` = ?' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT id FROM ...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT id FROM ...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT id FROM ...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(33): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-09 10:11:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`key` = ?' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT id FROM ...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT id FROM ...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT id FROM ...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-09 10:11:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`key` = ?' at line 1
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT id FROM ...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT id FROM ...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT id FROM ...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(32): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-09 10:13:42 --> Return value of CodeIgniter\Database\BasePreparedQuery::getErrorCode() must be of the type int, null returned
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(39): CodeIgniter\Database\BasePreparedQuery->getErrorCode()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-09 10:14:05 --> Return value of CodeIgniter\Database\BasePreparedQuery::getErrorCode() must be of the type int, null returned
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(39): CodeIgniter\Database\BasePreparedQuery->getErrorCode()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-09 10:18:22 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Server\\xampp...', 35, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-09 10:19:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::hasError()
+#0 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(28): App\Models\Etc\TestingModel->AuthModel_login(Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-04-09 10:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 23:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 23:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 23:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 23:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 23:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 23:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-04-09 23:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-04-09 23:59:04 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\Server\xampp73\htdocs\cashiera\app\Views\homepage\pages\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Server\\xampp...', 105, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(220): include('C:\\Server\\xampp...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Server\xampp73\htdocs\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('homepage/pages/...', Array, true)
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(44): view('homepage/pages/...')
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,30 @@
+/*label in & checkbox*/
+.check {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.check .chk-txt {
+    border: 5px solid #fba900;
+    padding: 8px;
+    vertical-align: middle !important;
+}
+
+.check .chk-box {
+    margin: 5px;
+    transform: scale(1.5);
+
+    /* Webkit browsers*/
+    -webkit-transform: scale(1.5);
+}
+
+.check .btn {
+    margin: 20px;
+}
+
+.check-top-left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Models/Etc/TestingModel.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/laporan_keseluruhan.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/Produk.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/public/resources/canvas/canvas.css</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Models/Admin/UpdateModel.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/toko.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Helpers/auth_helper.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/logout.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/KategoriProduk.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/kategori_produk.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/laporan_pembelian.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Helpers/datetime_helper.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Models/Admin/ReadModel.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/produk.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/karyawan.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Helpers/.gitkeep</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Models/Homepage/AuthModel.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/public/resources/collapsible/collapsible.css</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/public/resources/general/settings.css</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Homepage/Home.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Config/Routes.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Services/Access.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/tipe_produk.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/LaporanKeseluruhan.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Models/Admin/DeleteModel.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/Logout.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/laporan_penjualan.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/public/resources/modal/modal.js</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/public/resources/pages/filters.js</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Extension/BaseController.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/Karyawan.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Models/Services/ServicesModel.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/homepage/pages/index.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/public/resources/collapsible/collapsible.js</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/Toko.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Helpers/dynamicdb_helper.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Models/Admin/CreateModel.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/jabatan.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/public/resources/pages/navigation.js</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/Jabatan.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/LaporanPenjualan.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/admin/pages/pengaturan_akun.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Etc/Testing.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Extension/AdminController.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/LaporanPembelian.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/PengaturanAkun.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Views/etc/testing_ground.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/app/Controllers/Admin/TipeProduk.php</file>
+            <file>file:/C:/Server/xampp73/htdocs/cashiera/public/resources/table/table.css</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,669 @@
+INFO - 2021-06-23 00:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:06:25 --> Call to undefined function random_username()
+#0 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(220): include()
+#1 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Server\xampp73\htdocs\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 00:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:12:13 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php on line 156 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(156): db_dynamic('server')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(47): App\Models\Homepage\AuthModel->register(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-06-23 00:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:14:00 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php on line 156 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(156): db_dynamic('server')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(47): App\Models\Homepage\AuthModel->register(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-06-23 00:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:14:32 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php on line 156 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(156): db_dynamic('server')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(47): App\Models\Homepage\AuthModel->register(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-06-23 00:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:15:26 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php on line 977 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(977): db_dynamic('server')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(87): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-06-23 00:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:16:32 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_26199675...')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(1044): db_create_tenant('tenant_26199675...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(87): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 00:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:19:03 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_16385166...')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(1044): db_create_tenant('tenant_16385166...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(87): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 00:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:20:32 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_20460637...')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(1044): db_create_tenant('tenant_20460637...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(87): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 00:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 00:22:18 --> Error connecting to the database: Access denied for user '****'@'loc****lhost' (using p****ssword: YES)
+CRITICAL - 2021-06-23 00:22:18 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(992): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(87): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-23 00:22:19 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Server\\xampp...', 100, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(281): include('C:\\Server\\xampp...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-06-23 00:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 00:22:36 --> Error connecting to the database: Access denied for user '****'@'loc****lhost' (using p****ssword: YES)
+CRITICAL - 2021-06-23 00:22:37 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(992): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(87): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-23 00:22:37 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Server\\xampp...', 100, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(281): include('C:\\Server\\xampp...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-06-23 00:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:23:49 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_61555103')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(223): db_create_tenant('tenant_61555103')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(47): App\Models\Homepage\AuthModel->register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 00:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:38:54 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_14619385...')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(119): db_create_tenant('tenant_14619385...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(87): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 00:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 00:39:32 --> Error connecting to the database: Access denied for user '****'@'loc****lhost' (using p****ssword: YES)
+CRITICAL - 2021-06-23 00:39:32 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(67): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(87): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-23 00:39:33 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Server\\xampp...', 100, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(281): include('C:\\Server\\xampp...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-06-23 00:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 00:40:34 --> Error connecting to the database: Access denied for user '****'@'loc****lhost' (using p****ssword: YES)
+CRITICAL - 2021-06-23 00:40:35 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(67): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-23 00:40:35 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Server\\xampp...', 100, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(281): include('C:\\Server\\xampp...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-06-23 00:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 00:40:48 --> Error connecting to the database: Access denied for user '****'@'loc****lhost' (using p****ssword: YES)
+CRITICAL - 2021-06-23 00:40:48 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(67): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-23 00:40:48 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Server\\xampp...', 100, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(281): include('C:\\Server\\xampp...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-06-23 00:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 00:41:38 --> Error connecting to the database: Access denied for user '****'@'loc****lhost' (using p****ssword: YES)
+CRITICAL - 2021-06-23 00:41:38 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(67): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-23 00:41:39 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Server\\xampp...', 100, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(281): include('C:\\Server\\xampp...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-06-23 00:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 00:42:13 --> Error connecting to the database: Access denied for user '****'@'loc****lhost' (using p****ssword: YES)
+CRITICAL - 2021-06-23 00:42:13 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(67): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-23 00:42:13 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Server\\xampp...', 100, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(281): include('C:\\Server\\xampp...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-06-23 00:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:43:33 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_82295472...')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(119): db_create_tenant('tenant_82295472...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 00:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:51:23 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_18087678...')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(119): db_create_tenant('tenant_18087678...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 00:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:53:21 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_51522898')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(119): db_create_tenant('tenant_51522898')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 00:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:54:57 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 3 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_43143005...')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(119): db_create_tenant('tenant_43143005...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 00:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 00:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:57:47 --> Table 'tenant_61555103.users' doesn't exist
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('INSERT INTO `us...')
+#1 C:\Server\xampp73\htdocs\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('INSERT INTO `us...', Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('INSERT INTO `us...', Array)
+#3 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(235): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(160): db_create_builder('INSERT INTO', '`users`', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#8 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2021-06-23 00:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 00:58:49 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 3 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_16798611...')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(119): db_create_tenant('tenant_16798611...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 01:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 01:00:06 --> Too few arguments to function db_dynamic(), 3 passed in C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php on line 52 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(52): db_dynamic('server', 'localhost', 'root')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#2 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-06-23 01:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 01:00:27 --> Too few arguments to function db_dynamic(), 1 passed in C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php on line 460 and exactly 4 expected
+#0 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(460): db_dynamic('tenant_53820789...')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(119): db_create_tenant('tenant_53820789...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(41): App\Models\Etc\TestingModel->AuthModel_register(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 01:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:13:48 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:13:49 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(792): db_read_builder('SELECT', Array, 'FROM `category_...', Array, 'GROUP BY cp.id ...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(44): App\Models\Admin\ReadModel->read_category_product(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:13:49 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:13:49 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(866): db_read_builder('SELECT', Array, 'FROM `category_...', Array, 'GROUP BY cp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(50): App\Models\Admin\ReadModel->read_type_product(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:13:49 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:13:49 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(668): db_read_builder('SELECT', Array, 'FROM selling_hi...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(32): App\Models\Admin\ReadModel->read_overall_result(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:13:49 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:13:50 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT id as 'i...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(751): db_read_builder('SELECT', Array, 'FROM `id_store`', Array, 'ORDER BY `id` A...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(38): App\Models\Admin\ReadModel->read_id_store(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:14:16 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:14:16 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT id as 'i...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(751): db_read_builder('SELECT', Array, 'FROM `id_store`', Array, 'ORDER BY `id` A...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(38): App\Models\Admin\ReadModel->read_id_store(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:14:16 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:14:17 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(866): db_read_builder('SELECT', Array, 'FROM `category_...', Array, 'GROUP BY cp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(50): App\Models\Admin\ReadModel->read_type_product(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:14:17 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:14:17 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(792): db_read_builder('SELECT', Array, 'FROM `category_...', Array, 'GROUP BY cp.id ...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(44): App\Models\Admin\ReadModel->read_category_product(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:14:17 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:14:17 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(668): db_read_builder('SELECT', Array, 'FROM selling_hi...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(32): App\Models\Admin\ReadModel->read_overall_result(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:14:42 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:14:43 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT id as 'i...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(751): db_read_builder('SELECT', Array, 'FROM `id_store`', Array, 'ORDER BY `id` A...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\PengaturanAkun.php(35): App\Models\Admin\ReadModel->read_id_store(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\PengaturanAkun->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengaturanAkun))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:14:43 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:14:43 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(74): db_read_builder('SELECT', Array, 'FROM `users` u ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\PengaturanAkun.php(64): App\Models\Admin\ReadModel->read_user_login(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\PengaturanAkun->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengaturanAkun))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:14:43 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:14:43 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(122): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\PengaturanAkun.php(42): App\Models\Admin\ReadModel->read_role(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\PengaturanAkun->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengaturanAkun))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:17:32 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:17:32 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(866): db_read_builder('SELECT', Array, 'FROM `category_...', Array, 'GROUP BY cp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(50): App\Models\Admin\ReadModel->read_type_product(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:17:32 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:17:33 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT id as 'i...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(751): db_read_builder('SELECT', Array, 'FROM `id_store`', Array, 'ORDER BY `id` A...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(38): App\Models\Admin\ReadModel->read_id_store(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:17:33 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:17:33 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(792): db_read_builder('SELECT', Array, 'FROM `category_...', Array, 'GROUP BY cp.id ...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(44): App\Models\Admin\ReadModel->read_category_product(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 01:17:33 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-23 01:17:33 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(438): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Admin\ReadModel.php(668): db_read_builder('SELECT', Array, 'FROM selling_hi...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(32): App\Models\Admin\ReadModel->read_overall_result(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 01:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 01:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 02:15:42 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-23 02:15:42 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(39): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(40): App\Models\Homepage\AuthModel->login(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 02:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 02:15:59 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-23 02:15:59 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(39): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(40): App\Models\Homepage\AuthModel->login(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 02:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 02:17:46 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-23 02:17:47 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Homepage\AuthModel.php(39): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(40): App\Models\Homepage\AuthModel->login(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-06-23 02:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-06-23 02:23:34 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-23 02:23:35 --> Unable to connect to the database.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\BaseConnection.php(980): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Server\xampp73\htdocs\cashiera\app\Helpers\dynamicdb_helper.php(442): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#2 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(119): db_read_builder('SELECT', Array, 'FROM `id_auth` ...', Array, '', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(51): App\Models\Etc\TestingModel->alltest(Array)
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-23 02:23:35 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\Server\\xampp...', 100, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\app\Views\errors\html\error_exception.php(100): print_r(Array, true)
+#2 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(281): include('C:\\Server\\xampp...')
+#3 C:\Server\xampp73\htdocs\cashiera\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-06-23 02:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 02:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 02:26:01 --> You have not selected a database type to connect to.
+#0 C:\Server\xampp73\htdocs\cashiera\system\Database\Config.php(87): CodeIgniter\Database\Database->load(Array, 'custom-1c398897...')
+#1 C:\Server\xampp73\htdocs\cashiera\app\Models\Etc\TestingModel.php(101): CodeIgniter\Database\Config::connect('custom-1c398897...')
+#2 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Etc\Testing.php(51): App\Models\Etc\TestingModel->alltest(Array)
+#3 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-06-23 02:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-06-23 13:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 13:00:40 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-06-23 13:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-06-23 13:02:46 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2021-06-23 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

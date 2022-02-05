@@ -1,0 +1,40 @@
+CRITICAL - 2021-04-07 08:44:07 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Server\xampp\htdocs\cashiera\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Server\xampp\htdocs\cashiera\public\index.php(35): require('C:\\Server\\xampp...')
+#4 {main}
+CRITICAL - 2021-04-07 08:44:26 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Server\xampp\htdocs\cashiera\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Server\xampp\htdocs\cashiera\spark(53): require('C:\\Server\\xampp...')
+#4 {main}
+CRITICAL - 2021-04-07 08:44:35 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Server\xampp\htdocs\cashiera\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Server\xampp\htdocs\cashiera\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Server\xampp\htdocs\cashiera\spark(53): require('C:\\Server\\xampp...')
+#4 {main}
+CRITICAL - 2021-04-07 08:16:07 --> Use of undefined constant base - assumed 'base' (this will throw an Error in a future version of PHP)
+#0 C:\Server\xampp73\htdocs\cashiera\app\Views\homepage\extension\header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Server\\xampp...', 3, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(220): include('C:\\Server\\xampp...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Server\xampp73\htdocs\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('homepage/extens...', Array, true)
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(15): view('homepage/extens...')
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-07 08:16:10 --> Use of undefined constant base - assumed 'base' (this will throw an Error in a future version of PHP)
+#0 C:\Server\xampp73\htdocs\cashiera\app\Views\homepage\extension\header.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\Server\\xampp...', 3, Array)
+#1 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(220): include('C:\\Server\\xampp...')
+#2 C:\Server\xampp73\htdocs\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Server\xampp73\htdocs\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('homepage/extens...', Array, true)
+#4 C:\Server\xampp73\htdocs\cashiera\app\Controllers\Homepage\Home.php(15): view('homepage/extens...')
+#5 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(936): App\Controllers\Homepage\Home->index()
+#6 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage\Home))
+#7 C:\Server\xampp73\htdocs\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Server\xampp73\htdocs\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

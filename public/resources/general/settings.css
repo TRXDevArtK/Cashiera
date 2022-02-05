@@ -1,0 +1,106 @@
+/*SETTING UMUM UNTUK SEMUA PAGE*/
+
+html {
+    font-size: 100%; /* default font 16px atau 1em atau 1rem */
+    font-size: 16px;
+    font-family: arial, helvetica, sans-serif; /* default font yang 99% dipakai orang , diambil di komputer sendiri*/
+}
+
+/* Body keseluruhan termasuk header */
+body{
+    margin: 0;
+}
+
+/*Body untuk konten*/
+.body{
+    margin-top: 2.5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/*table sementara*/
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/*Header & Navigasi*/
+/*header{
+    font-size: 0.8rem;
+    font-size: 13px;
+    margin-bottom: 2.5%;
+}*/
+
+/*Fungsi Umum (Portable) ------------------------*/
+
+/*Ketengah*/
+.center{
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Kanan*/
+.right{
+    text-align: right;
+    vertical-align: middle;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*Kiri*/
+.left{
+    text-align: left;
+    vertical-align: middle;
+}
+
+.ignore_marpad{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*debugging only*/
+.color-disabled{
+    background-color: #999999 !important;
+}
+
+.block{
+    display: block;
+}
+
+/*Abaikan CSS*/
+.ignore-css{
+    all: unset !important;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.flex-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+hr{
+    border-color: black;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+@media (max-width: 500px){
+    .body {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: auto;
+    }
+}
+

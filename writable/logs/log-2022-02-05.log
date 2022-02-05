@@ -1,0 +1,1246 @@
+INFO - 2022-02-05 00:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-05 00:27:08 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.tp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT tp.id as...')
+#1 C:\laragon\www\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tp.id as...')
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tp.id as...')
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(427): CodeIgniter\Database\BaseConnection->query('SELECT tp.id as...')
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(895): db_read_builder('SELECT', Array, 'FROM `type_prod...', Array, 'GROUP BY tp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(52): App\Models\Admin\ReadModel->read_type_product(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-05 00:27:16 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.tp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT tp.id as...')
+#1 C:\laragon\www\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tp.id as...')
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tp.id as...')
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(427): CodeIgniter\Database\BaseConnection->query('SELECT tp.id as...')
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(895): db_read_builder('SELECT', Array, 'FROM `type_prod...', Array, 'GROUP BY tp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(52): App\Models\Admin\ReadModel->read_type_product(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-05 00:27:18 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.tp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT tp.id as...')
+#1 C:\laragon\www\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tp.id as...')
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tp.id as...')
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(427): CodeIgniter\Database\BaseConnection->query('SELECT tp.id as...')
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(895): db_read_builder('SELECT', Array, 'FROM `type_prod...', Array, 'GROUP BY tp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\LaporanPenjualan.php(52): App\Models\Admin\ReadModel->read_type_product(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanPenjualan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanPenjualan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-05 00:27:21 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.tp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT tp.id as...')
+#1 C:\laragon\www\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tp.id as...')
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tp.id as...')
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(427): CodeIgniter\Database\BaseConnection->query('SELECT tp.id as...')
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(895): db_read_builder('SELECT', Array, 'FROM `type_prod...', Array, 'GROUP BY tp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\LaporanPembelian.php(52): App\Models\Admin\ReadModel->read_type_product(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanPembelian->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanPembelian))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-05 00:27:24 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.tp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT tp.id as...')
+#1 C:\laragon\www\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tp.id as...')
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tp.id as...')
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(427): CodeIgniter\Database\BaseConnection->query('SELECT tp.id as...')
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(895): db_read_builder('SELECT', Array, 'FROM `type_prod...', Array, 'GROUP BY tp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Produk.php(75): App\Models\Admin\ReadModel->read_type_product(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Produk->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:27:24 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.p.code' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT p.name a...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT p.name a...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT p.name a...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(432): db_read_builder('SELECT', Array, 'FROM product p ...', Array, 'GROUP BY p.name...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Produk.php(57): App\Models\Admin\ReadModel->read_product(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Produk->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-05 00:28:00 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.tp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT tp.id as...')
+#1 C:\laragon\www\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tp.id as...')
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tp.id as...')
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(427): CodeIgniter\Database\BaseConnection->query('SELECT tp.id as...')
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(895): db_read_builder('SELECT', Array, 'FROM `type_prod...', Array, 'GROUP BY tp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Produk.php(75): App\Models\Admin\ReadModel->read_type_product(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Produk->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:28:00 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.p.code' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT p.name a...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT p.name a...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT p.name a...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(432): db_read_builder('SELECT', Array, 'FROM product p ...', Array, 'GROUP BY p.name...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Produk.php(57): App\Models\Admin\ReadModel->read_product(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Produk->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:29:03 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-05 00:33:26 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.tp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT tp.id as...')
+#1 C:\laragon\www\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tp.id as...')
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tp.id as...')
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(427): CodeIgniter\Database\BaseConnection->query('SELECT tp.id as...')
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(895): db_read_builder('SELECT', Array, 'FROM `type_prod...', Array, 'GROUP BY tp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(52): App\Models\Admin\ReadModel->read_type_product(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:33:31 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.ids.location' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT ids.name...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT ids.name...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT ids.name...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(321): db_read_builder('SELECT', Array, 'FROM `id_store`...', Array, 'GROUP BY ids.na...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Toko.php(60): App\Models\Admin\ReadModel->read_store(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:33:37 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:45:17 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(59): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:45:38 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:45:51 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:46:31 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(156): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:46:52 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(156): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:47:28 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:49:50 --> Call to undefined function App\Models\Admin\prinr_r()
+#0 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#1 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#2 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#3 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-02-05 00:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:50:27 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(156): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:51:37 --> You must set the database table to be used with your query.
+#0 C:\laragon\www\cashiera\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\laragon\www\cashiera\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(71): CodeIgniter\Model->__call('AuthModel_login', Array)
+#3 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2022-02-05 00:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:51:45 --> Too few arguments to function db_dynamic(), 1 passed in C:\laragon\www\cashiera\app\Models\Etc\TestingModel.php on line 493 and exactly 4 expected
+#0 C:\laragon\www\cashiera\app\Models\Etc\TestingModel.php(493): db_dynamic('tenant_1165')
+#1 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(175): App\Models\Etc\TestingModel->testdb1(Array)
+#2 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-02-05 00:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:51:49 --> Too few arguments to function db_dynamic(), 1 passed in C:\laragon\www\cashiera\app\Models\Etc\TestingModel.php on line 397 and exactly 4 expected
+#0 C:\laragon\www\cashiera\app\Models\Etc\TestingModel.php(397): db_dynamic('server')
+#1 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(108): App\Models\Etc\TestingModel->login(Array)
+#2 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-02-05 00:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:52:04 --> Too few arguments to function db_dynamic(), 1 passed in C:\laragon\www\cashiera\app\Models\Etc\TestingModel.php on line 257 and exactly 4 expected
+#0 C:\laragon\www\cashiera\app\Models\Etc\TestingModel.php(257): db_dynamic('tenant_1165')
+#1 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(64): App\Models\Etc\TestingModel->update_product(Array)
+#2 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#3 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-02-05 00:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:52:08 --> Incorrect decimal value: '' for column 'pricing_report' at row 1
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(88): mysqli_stmt->execute()
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(136): CodeIgniter\Database\MySQLi\PreparedQuery->_execute(Array)
+#2 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(230): CodeIgniter\Database\BasePreparedQuery->execute(NULL, '2021-06-25 03:1...', 220000, 300000, '', '', 1, 17, 1)
+#3 C:\laragon\www\cashiera\app\Models\Etc\TestingModel.php(124): db_create_builder('INSERT INTO', '`selling_histor...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(51): App\Models\Etc\TestingModel->alltest(Array)
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-05 00:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:52:15 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:52:19 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.ids.location' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT ids.name...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT ids.name...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT ids.name...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(321): db_read_builder('SELECT', Array, 'FROM `id_store`...', Array, 'GROUP BY ids.na...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Toko.php(60): App\Models\Admin\ReadModel->read_store(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:52:56 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.ids.location' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT ids.name...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT ids.name...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT ids.name...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(322): db_read_builder('SELECT', Array, 'FROM `id_store`...', Array, 'GROUP BY ids.na...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Toko.php(60): App\Models\Admin\ReadModel->read_store(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:53:08 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.ids.location' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT ids.name...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT ids.name...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT ids.name...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(322): db_read_builder('SELECT', Array, 'FROM `id_store`...', Array, 'GROUP BY ids.na...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Toko.php(60): App\Models\Admin\ReadModel->read_store(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Toko->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Toko))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:53:13 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-05 00:55:12 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.tp.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT tp.id as...')
+#1 C:\laragon\www\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tp.id as...')
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tp.id as...')
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(427): CodeIgniter\Database\BaseConnection->query('SELECT tp.id as...')
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(896): db_read_builder('SELECT', Array, 'FROM `type_prod...', Array, 'GROUP BY tp.nam...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\LaporanKeseluruhan.php(52): App\Models\Admin\ReadModel->read_type_product(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\LaporanKeseluruhan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\LaporanKeseluruhan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:55:16 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:55:56 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 00:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:57:55 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#1 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#2 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#3 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-02-05 00:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 00:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 00:59:27 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(432): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:01:12 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(432): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:01:24 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:02:45 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(156): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:03:12 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:09:12 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(123): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#2 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#3 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-02-05 01:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:09:36 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(90): helper(Array)
+#1 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#2 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#3 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-02-05 01:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:10:00 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(433): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:12:02 --> Call to undefined function db_dynamic()
+#0 C:\laragon\www\cashiera\system\View\View.php(220): include()
+#1 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#3 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-05 01:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:12:55 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\laragon\www\cashiera\system\View\View.php(220): include()
+#1 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#3 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-05 01:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:13:21 --> Use of undefined constant db_tenant - assumed 'db_tenant' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\cashiera\app\Views\etc\testing_ground.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 47, Array)
+#1 C:\laragon\www\cashiera\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#4 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-05 01:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:13:53 --> Use of undefined constant db_tenant - assumed 'db_tenant' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\cashiera\app\Views\etc\testing_ground.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 47, Array)
+#1 C:\laragon\www\cashiera\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#4 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-05 01:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:13:57 --> Use of undefined constant db_tenant - assumed 'db_tenant' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\cashiera\app\Views\etc\testing_ground.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 47, Array)
+#1 C:\laragon\www\cashiera\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#4 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-05 01:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:16:07 --> Call to undefined function query()
+#0 C:\laragon\www\cashiera\system\View\View.php(220): include()
+#1 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#3 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-05 01:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:17:25 --> Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\laragon\www\cashiera\app\Views\etc\testing_ground.php on line 47 and at least 1 expected
+#0 C:\laragon\www\cashiera\app\Views\etc\testing_ground.php(47): CodeIgniter\Database\BaseConnection->query()
+#1 C:\laragon\www\cashiera\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#4 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-02-05 01:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-05 01:18:35 --> mysqli_sql_exception: Table 'tenant_1694033084.susers' doesn't exist in C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * From s...')
+#1 C:\laragon\www\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From s...')
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From s...')
+#3 C:\laragon\www\cashiera\app\Views\etc\testing_ground.php(47): CodeIgniter\Database\BaseConnection->query('SELECT * From s...')
+#4 C:\laragon\www\cashiera\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#7 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#9 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#10 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2022-02-05 01:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2022-02-05 01:18:58 --> mysqli_sql_exception: Table 'tenant_1694033084.susers' doesn't exist in C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * From s...')
+#1 C:\laragon\www\cashiera\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From s...')
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From s...')
+#3 C:\laragon\www\cashiera\app\Views\etc\testing_ground.php(47): CodeIgniter\Database\BaseConnection->query('SELECT * From s...')
+#4 C:\laragon\www\cashiera\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#7 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#9 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#10 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2022-02-05 01:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:19:33 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:20:21 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:21:18 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:22:16 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:22:57 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:23:37 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(156): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:24:33 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:25:08 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:25:31 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:26:38 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:27:18 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(155): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:27:45 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:28:51 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(432): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:41:59 --> print_r() expects at most 2 parameters, 3 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expec...', 'C:\\laragon\\www\\...', 423, Array)
+#1 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(423): print_r('===========', 'SELECT COUNT(*)...', '===========')
+#2 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(122): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-02-05 01:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:42:10 --> A non-numeric value encountered
+#0 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(423): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\laragon\\www\\...', 423, Array)
+#1 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(122): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#3 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#5 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2022-02-05 01:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:42:25 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(432): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:43:13 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(433): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:44:12 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(432): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:44:26 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(432): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:44:56 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(433): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:45:52 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:46:47 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:52:41 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:55:39 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:56:10 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:56:51 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:57:13 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:57:38 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:59:07 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 01:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:59:23 --> Call to a member function getQueryString() on null
+#0 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(122): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#2 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#3 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#4 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-02-05 01:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 01:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 01:59:39 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 02:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 02:00:19 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(431): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 02:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 02:01:13 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(432): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 02:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 02:05:43 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Helpers\dynamicdb_helper.php(433): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\app\Models\Admin\ReadModel.php(154): db_read_builder('SELECT', Array, 'FROM `role` r', Array, 'GROUP BY `r`.`n...', Array, Array, Object(CodeIgniter\Database\MySQLi\Connection))
+#5 C:\laragon\www\cashiera\app\Controllers\Admin\Jabatan.php(58): App\Models\Admin\ReadModel->read_role(Array)
+#6 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Admin\Jabatan->index()
+#7 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Jabatan))
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+INFO - 2022-02-05 02:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 02:06:16 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Views\etc\testing_ground.php(50): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#7 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#9 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#10 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2022-02-05 02:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-02-05 02:07:42 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'tenant_1694033084.r.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 C:\laragon\www\cashiera\system\Database\MySQLi\PreparedQuery.php(41): mysqli->prepare('SELECT r.id as ...')
+#1 C:\laragon\www\cashiera\system\Database\BasePreparedQuery.php(106): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('SELECT r.id as ...', Array)
+#2 C:\laragon\www\cashiera\system\Database\BaseConnection.php(1001): CodeIgniter\Database\BasePreparedQuery->prepare('SELECT r.id as ...', Array)
+#3 C:\laragon\www\cashiera\app\Views\etc\testing_ground.php(50): CodeIgniter\Database\BaseConnection->prepare(Object(Closure), Array)
+#4 C:\laragon\www\cashiera\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\cashiera\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\laragon\www\cashiera\system\Common.php(1217): CodeIgniter\View\View->render('etc/testing_gro...', Array, true)
+#7 C:\laragon\www\cashiera\app\Controllers\Etc\Testing.php(210): view('etc/testing_gro...')
+#8 C:\laragon\www\cashiera\system\CodeIgniter.php(936): App\Controllers\Etc\Testing->index()
+#9 C:\laragon\www\cashiera\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etc\Testing))
+#10 C:\laragon\www\cashiera\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\cashiera\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+INFO - 2022-02-05 02:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-02-05 02:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,201 @@
+/*inisialisasi button umum*/
+.btn-1{
+    position: relative;
+    background-color: #ff3333;
+    border: none;
+    color: white;
+    padding: 16px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 180px;
+}
+
+/*button khusus submit*/
+.btn-submit-1{
+    background-color: #0099cc; 
+    color: white; 
+    border: 2px solid #0099cc;
+}
+
+.btn-submit-1:hover{
+    background-color: #00e1ff;
+    color: white;
+}
+
+/*Button Sub-Navigasi*/
+.btn-subnav-1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #006d3e;
+}
+
+.btn-subnav-1:hover {
+    background-color: #006d3e;
+    color: white;
+}
+
+/*button nav type 1*/
+.btn-nav-1{
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    background-color: #1b9831;
+    box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.2);
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+}
+
+.btn-nav-1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*button nav type 2*/
+.btn-nav-2 {
+    border-radius: 10px;
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #00cccc;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-nav-2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* modal close button */
+.btn-modal-close-1 {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #cccccc;
+  padding: 3px 10px;
+}
+
+.btn-modal-close-1:hover,
+.btn-modal-close-1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-sidebar-1{
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: #ff3333;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+}
+
+.btn-profile-1{
+    background-color: #197300;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+}
+
+/*button dropdown hoverable*/
+.btnORcnv-dropdown-1{
+    position: relative;
+    display: inline-block;
+}
+
+.btn-dropdown-1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-dropdown-cont-1 {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.btn-dropdown-cont-a-1 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.btn-dropdown-cont-a-1:hover {
+    background-color: #f1f1f1;
+}
+
+.btnORcnv-dropdown-1:hover .btn-dropdown-cont-1 {
+  display: block;
+}
+
+.btnORcnv-dropdown-1:hover .btn-dropdown-1 {
+  background-color: #3e8e41;
+}
+
+/*button dropdown click and search*/
+.btn-dropdown-2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnORcnv-dropdown-2:hover, .btnORcnv-dropdown-2:focus {
+    background-color: #3e8e41;
+}
+
+.inp-dropdown-text-1 {
+    box-sizing: border-box;
+    /*background-image: url('searchicon.png');*/
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.inp-dropdown-text-1:focus {outline: 3px solid #ddd;}
+
+.btnORcnv-dropdown-2 {
+    position: relative;
+    display: inline-block;
+}
+
+.btn-dropdown-cont-2 {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.btn-dropdown-cont-a-2 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.btn-dropdown-cont-a-2:hover {background-color: #ddd;}
+

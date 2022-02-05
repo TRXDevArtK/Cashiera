@@ -1,0 +1,40 @@
+/*image style for menu type 1*/
+.img-menu-1 {
+    border: none;
+    margin: 0px 0px;
+    padding: 0px;
+    background: none;
+    box-shadow: none !important;
+}
+
+.img-menu-1:hover {
+    box-shadow: none !important;
+}
+
+.img-menu-1 img {
+    width: 100px;
+}
+
+.img-menu-lower-1 {
+    display: none;
+}
+
+@media (max-width: 670px){
+    .img-menu-1 {
+        display: none;
+    }
+    
+    .img-menu-lower-1 {
+        display: block;
+        text-align: center;
+        background-color: #1ba831;
+    }
+    
+    .menu-img-lower-1 img {
+        width: 80px;
+    }
+    
+    .menu a {
+        max-width: 100px;
+    }
+}

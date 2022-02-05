@@ -1,0 +1,43 @@
+/*Form Input-Date*/
+.inp-gen-date-1{
+    padding: 10px;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: gray;
+    font-size: 0.8rem;
+    font-size: 13px;
+}
+
+.inp-gen-date-1:hover {
+    box-shadow: 0px 0px 20px 2px #888888;
+    background-color: #f6f6ff;
+    transition: 0.1s;
+}
+
+/*.inp-gen-date-1 .tgl{
+    width: 80px;
+    color: #000;
+}*/
+
+/*Tabel*/
+.table{
+    width: 100%;
+    border: 2px solid black;
+    text-align: left;
+}
+
+/*Input Text*/
+.inp-gen-txt-1, .inp-gen-num-1{
+    width:100%;
+    padding: 10px;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inp-gen-txt-1, .inp-gen-num-1 {
+    box-shadow: 0px 0px 20px 2px #888888;
+    background-color: #f6f6ff;
+    transition: 0.1s;
+}
